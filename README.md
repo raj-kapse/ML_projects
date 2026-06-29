@@ -1,46 +1,209 @@
-# ML Projects
+# 🤖 Machine Learning Projects
 
-A collection of machine learning projects built during my AI/ML engineering learning journey.
+A collection of Machine Learning and Deep Learning projects built during my journey to becoming an AI/ML Engineer.
 
-## Projects
+Each project focuses on solving real-world ML problems while learning algorithms, feature engineering, neural networks, deployment, and experiment tracking.
 
-### S23 — XGBoost Wine Classification
-- Dataset: Wine (sklearn built-in)
-- Algorithm: XGBoost, Random Forest, Logistic Regression comparison
-- Result: 94.98% cross-validation accuracy
+---
 
-### S24 — SVM Breast Cancer Classification
-- Dataset: Breast Cancer (sklearn built-in)
-- Algorithm: SVM with StandardScaler
-- Result: 97.36% cross-validation accuracy
+# 📂 Projects
 
-### S25 — Ridge & Lasso Regression
-- Dataset: Restaurant (Zomato)
-- Algorithms: Ridge, Lasso with alpha tuning
-- Key learning: Lasso coefficient collapse at default alpha
+## 🌸 Iris Flower Classification
 
-### S26 — Medical Insurance Charges Prediction
-- Dataset: insurance.csv (Kaggle)
-- Algorithms: Random Forest, XGBoost, Linear Regression comparison
-- Result: R2 = 0.8535 (Random Forest)
+- **Dataset:** Iris Dataset (scikit-learn)
+- **Algorithms:** Logistic Regression, Decision Tree, Random Forest
+- **Task:** Multi-class Classification
+- **Concepts Learned**
+  - Data preprocessing
+  - Train/Test Split
+  - Model Evaluation
+  - Accuracy Score
+  - Classification Report
 
-### S27 — Neural Network on Insurance Data
-- Framework: TensorFlow/Keras
-- Architecture: Dense(64) → Dense(32) → Dense(1)
-- Result: R2 = 0.8757 with scaling + log transform
+---
 
-### S28 — Feature Engineering on Insurance Data
-- Feature engineering: age_bmi, age_smoker interaction features
-- Log transformation on target
-- Result: R2 improved from 0.8535 → 0.8757
+## 🍷 Wine Classification using XGBoost
 
-### S29 — Model Deployment with Flask
-- Saved model with joblib
-- Flask REST API serving predictions over HTTP
-- Endpoint: POST /predict
+**File:** `wine_classification_xgboost.py`
 
-## Tech Stack
-Python, scikit-learn, XGBoost, TensorFlow/Keras, Flask, pandas, numpy
+- **Dataset:** Wine Dataset (scikit-learn)
+- **Algorithms**
+  - XGBoost
+  - Random Forest
+  - Logistic Regression
+- **Best Result**
+  - **94.98% Cross Validation Accuracy**
 
-## Author
-[raj-kapse](https://github.com/raj-kapse)
+---
+
+## 🎗 Breast Cancer Classification using SVM
+
+**File:** `breast_cancer_svm.py`
+
+- **Dataset:** Breast Cancer Dataset (scikit-learn)
+- **Algorithm:** Support Vector Machine
+- **Preprocessing:** StandardScaler
+- **Result**
+  - **97.36% Cross Validation Accuracy**
+
+---
+
+## 🍽 Restaurant Price Prediction using Ridge & Lasso
+
+**File:** `restaurant_ridge_lasso.py`
+
+- **Dataset:** Restaurant (Zomato)
+- **Algorithms**
+  - Ridge Regression
+  - Lasso Regression
+
+### Concepts Learned
+
+- Regularization
+- Alpha Tuning
+- Feature Selection
+- Coefficient Shrinkage
+
+---
+
+## 🏥 Medical Insurance Cost Prediction
+
+**File:** `insurance_cost_prediction.py`
+
+- **Dataset:** Insurance Charges (Kaggle)
+
+### Models Compared
+
+- Linear Regression
+- Random Forest
+- XGBoost
+
+### Best Result
+
+**R² Score = 0.8535**
+
+---
+
+## 🧠 Neural Network for Insurance Prediction
+
+**File:** `insurance_neural_network.py`
+
+- **Framework:** TensorFlow / Keras
+
+### Architecture
+
+```
+Dense(64)
+Dense(32)
+Dense(1)
+```
+
+### Result
+
+**R² Score = 0.8757**
+
+---
+
+## ⚙ Feature Engineering
+
+**File:** `insurance_feature_engineering.py`
+
+### Techniques
+
+- age × bmi
+- smoker interaction
+- Log Transformation
+
+### Result
+
+Performance improved from
+
+**0.8535 → 0.8757 R²**
+
+---
+
+## 🌐 Flask API Deployment
+
+**File:** `flask_api.py`
+
+### Features
+
+- Saved trained model using Joblib
+- REST API using Flask
+
+Endpoint
+
+```
+POST /predict
+```
+
+---
+
+## 📊 MLflow Experiment Tracking
+
+**File:** `mlflow_experiment_tracking.py`
+
+### Learned
+
+- Experiment Tracking
+- Parameter Logging
+- Metric Logging
+- Model Logging
+- Model Versioning
+
+---
+
+# 🛠 Tech Stack
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- XGBoost
+- TensorFlow / Keras
+- Flask
+- MLflow
+
+---
+
+# 📚 Skills Demonstrated
+
+- Classification
+- Regression
+- Neural Networks
+- Feature Engineering
+- Hyperparameter Tuning
+- Model Evaluation
+- Model Deployment
+- Experiment Tracking
+- Data Preprocessing
+
+---
+
+# 🚀 Future Projects
+
+- CNN on MNIST
+- Transfer Learning
+- NLP
+- Transformers
+- RAG
+- LangChain
+- Computer Vision
+- MLOps
+- Docker
+- Kubernetes
+- FastAPI
+- Streamlit
+- AWS Deployment
+
+---
+
+# 👨‍💻 Author
+
+**Raj Kapse**
+
+AI & Machine Learning Engineer (Learning)
+
+GitHub:
+https://github.com/raj-kapse
