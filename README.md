@@ -1,4 +1,4 @@
-# 🤖 Machine Learning Projects
+# Machine Learning Projects
 
 A collection of Machine Learning and Deep Learning projects built during my journey to becoming an AI/ML Engineer.
 
@@ -6,9 +6,9 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-# 📂 Projects
+# Projects
 
-## 🌸 Iris Flower Classification
+## Iris Flower Classification
 
 - **Dataset:** Iris Dataset (scikit-learn)
 - **Algorithms:** Logistic Regression, Decision Tree, Random Forest
@@ -22,7 +22,7 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-## 🍷 Wine Classification using XGBoost
+## Wine Classification using XGBoost
 
 **File:** `wine_classification_xgboost.py`
 
@@ -36,7 +36,7 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-## 🎗 Breast Cancer Classification using SVM
+## Breast Cancer Classification using SVM
 
 **File:** `breast_cancer_svm.py`
 
@@ -48,7 +48,7 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-## 🍽 Restaurant Price Prediction using Ridge & Lasso
+## Restaurant Price Prediction using Ridge & Lasso
 
 **File:** `restaurant_ridge_lasso.py`
 
@@ -66,7 +66,7 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-## 🏥 Medical Insurance Cost Prediction
+## Medical Insurance Cost Prediction
 
 **File:** `insurance_cost_prediction.py`
 
@@ -84,7 +84,7 @@ Each project focuses on solving real-world ML problems while learning algorithms
 
 ---
 
-## 🧠 Neural Network for Insurance Prediction
+## Neural Network for Insurance Prediction
 
 **File:** `insurance_neural_network.py`
 
@@ -104,7 +104,7 @@ Dense(1)
 
 ---
 
-## ⚙ Feature Engineering
+## Feature Engineering
 
 **File:** `insurance_feature_engineering.py`
 
@@ -122,7 +122,7 @@ Performance improved from
 
 ---
 
-## 🌐 Flask API Deployment
+## Flask API Deployment
 
 **File:** `flask_api.py`
 
@@ -139,7 +139,7 @@ POST /predict
 
 ---
 
-## 📊 MLflow Experiment Tracking
+## MLflow Experiment Tracking
 
 **File:** `mlflow_experiment_tracking.py`
 
@@ -153,7 +153,7 @@ POST /predict
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 - Python
 - NumPy
@@ -167,7 +167,7 @@ POST /predict
 
 ---
 
-# 📚 Skills Demonstrated
+# Skills Demonstrated
 
 - Classification
 - Regression
@@ -181,7 +181,7 @@ POST /predict
 
 ---
 
-# 🚀 Future Projects
+# Future Projects
 
 - CNN on MNIST
 - Transfer Learning
@@ -199,7 +199,7 @@ POST /predict
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Raj Kapse**
 
